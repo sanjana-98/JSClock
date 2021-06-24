@@ -1,0 +1,66 @@
+.clockcontainer{
+  margin: auto;
+  /* border: pink solid 2px; */
+  /* having height and width as viewport width means it just takes 40% of the width of screen be it a desktop or mobile etc and makes site responsive*/
+  height: 40vw;
+  width: 40vw;
+  background: url(unnamed.jpg) no-repeat;
+  background-size: 100%;
+  position: relative;
+  top: 30px;
+  z-index:-1;
+
+}
+
+#hour,#min,#sec{
+  position: absolute;
+  background: black;
+  border-radius: 10px;
+  transform-origin: bottom;
+}
+
+#hour{
+  height: 30%;
+  width: 2%;
+  top: 17%;
+  left: 48.4%;
+
+
+
+
+}
+
+#min{
+  height: 34%;
+  width: 2%;
+  top: 13%;
+  left: 48.4%;
+
+}
+#sec{
+  height: 37%;
+  width: 1%;
+  top: 11%;
+  left: 49%;
+}
+
+                                                           /* TO SET ALARM */
+.setalarm{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  background-size: 100%;
+}
+.hours,.mins,.seconds{
+  padding: 5px 10px;
+}
+.btns{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+.snooze{
+  
+  margin-right: 10px;
+}
