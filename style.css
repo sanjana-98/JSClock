@@ -45,22 +45,7 @@
 }
 
                                                            /* TO SET ALARM */
-.setalarm{
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  background-size: 100%;
-}
+
 .hours,.mins,.seconds{
   padding: 5px 10px;
-}
-.btns{
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-
-}
-.snooze{
-  
-  margin-right: 10px;
 }
